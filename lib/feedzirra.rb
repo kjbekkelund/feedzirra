@@ -10,7 +10,7 @@ require 'active_support/version'
 require 'active_support/basic_object'
 require 'active_support/core_ext/module'
 require 'active_support/core_ext/kernel'
-require 'active_support/core_ext/object'
+require 'active_support/core_ext'
 
 if ActiveSupport::VERSION::MAJOR >= 3
   require 'active_support/time'
